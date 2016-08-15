@@ -617,12 +617,12 @@ header {
     margin-bottom: 100px;
 }
 
-.info {
+.about-center .info {
     position: relative;
     margin: 0 130px 150px 50px;
 }
 
-.info img {
+.about-center .info img {
     position: absolute;
     left: -110px;
     top: -120px;
@@ -631,27 +631,27 @@ header {
     border-radius: 50%;
 }
 
-.info h1 {
+.about-center .info h1 {
     position: absolute;
     left: -200px;
     font-size: 20px;
 }
 
-.info p {
+.about-center .info p {
     font-size: 14px;
     line-height: 200%;
 }
 
-.info p.info-routine {
+.about-center .info p.info-routine {
     font-size: 12px;
     line-height: 200%;
 }
 
-.info-item {
+.about-center .info-item {
     margin-bottom: 30px;
 }
 
-.info-item-datatime {
+.about-center .info-item-datatime {
     position: absolute;
     left: -88px;
     width: 60px;
@@ -662,11 +662,11 @@ header {
     text-align: center;
 }
 
-.info-name {
+.about-center .info-name {
     margin-top: 130px;
 }
 
-.info-name img {
+.about-center .info-name img {
     position: absolute;
     left: -140px;
     top: -180px;

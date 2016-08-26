@@ -1,0 +1,120 @@
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.warn {
+    margin-bottom: 10px;
+    display: block;
+    color: red;
+    background: #eee;
+    padding: 5px;
+}
+
+.image-rotation {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-box {
+    width: 2500px;
+    font-size: 0;
+    position: absolute;
+}
+
+.icon-box {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -45px;
+}
+
+.icon-box a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+}
+
+.icon-box a.active {
+    background: #fff;
+}
+
+.input-hint input {
+    box-sizing: border-box;
+    width: 200px;
+    border: 1px solid #8f8f8f;
+    outline: none;
+    padding: 3px 5px;
+    margin: 0;
+}
+
+.input-hint ul {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid #8f8f8f;
+    border-top: none;
+}
+
+.input-hint li {
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.input-hint li.active {
+    background: #eee;
+}
+
+.input-hint li span {
+    color: #a73535;
+}
+
+.drag-block {
+    position: relative;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.block {
+    width: 200px;
+    height: 479px;
+    border: 1px solid #000;
+    float: left;
+}
+
+.right-block {
+    margin-left: 300px;
+}
+
+.move {
+    width: 200px;
+    height: 59px;
+    background: #929bdd;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    line-height: 59px;
+    font-size: 18px;
+    cursor: move;
+}
+
+.clearfix {
+    *zoom: 1;
+}

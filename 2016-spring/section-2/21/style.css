@@ -1,0 +1,34 @@
+.container {
+  margin: 15px;
+}
+
+.container span {
+  display: inline-block;
+  margin: 5px;
+  padding: 0 5px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  background-color: #8ECAFC;
+  animation: fadein 1s;
+}
+
+.container span:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+#hobby-container span {
+  background-color: #F7CC87;
+}
+
+#hobby-container span:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+@keyframes fadein {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}

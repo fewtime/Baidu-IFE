@@ -59,6 +59,10 @@ CreateList.prototype.isFull = function() {
   }
 };
 
+CreateList.prototype.remove = function(ele) {
+  this.queue.splice(this.queue.indexOf(ele), 1);
+};
+
 var tagList = new CreateList($("#tag-container"));
 var hobbyList = new CreateList($("#hobby-container"));
 
@@ -88,8 +92,8 @@ window.onload = function() {
 
   addEvent($("#tag-container"), "click", function(e) {
     if (e.target && e.target.nodeName === "SPAN") {
-      var data = e.target.innerHTML.split("点击删除：")[1];
-      tagList.queue.splice(tagList.queue.indexOf(data), 1);
+      var removedEle = e.target.innerHTML.split("点击删除：")[1];
+      tagList.remove(removeEle);
       $("#tag-container").removeChild(e.target);
     }
   });
